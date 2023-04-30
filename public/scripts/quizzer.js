@@ -41,7 +41,7 @@ class Quizzer {
                                 }
                         })
                         .catch(err => {
-                                        reject({});
+                                reject({});
                         })
                 })
         }
