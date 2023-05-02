@@ -25,7 +25,7 @@ const startQuiz = async (e) => {
                 numberOfQuestions: +numberOfQuestions.value,
                 isTimed: isTimed.checked
         })
-        button.textContent = "Loading Questions..."
+        button.textContent = "Loading Questions...."
         try {
                 await quizzer.getQuestions()
                 settings.classList.add("d-none");
